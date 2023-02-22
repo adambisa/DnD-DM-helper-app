@@ -6,7 +6,7 @@ from random import randint
 class DiceRoller(UserControl):
     def build(self):
         #self.reset()
-        self.result = Text(value='0', color=colors.WHITE, size=20)
+        self.result = Text(value='0', color=colors.WHITE, size=42)
         self.txt_number = Text(value='1', color=colors.WHITE, size=20)
         return Container(
             width=350,
